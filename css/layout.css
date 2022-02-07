@@ -4,9 +4,14 @@
     padding: 20px 0;
 }
 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: khaki;
     width: 600px;
     margin: 0 calc(50% - 300px);
+    gap: 30px;
 }
 @media (max-width: 1200px) {
     .top {

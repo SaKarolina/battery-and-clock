@@ -1,3 +1,6 @@
+@import '../css/layout.css';
+@import '../css/components/battery-progress-bar.css';
+
 body,
 body * {
     margin: 0;
