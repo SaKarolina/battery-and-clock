@@ -1,0 +1,36 @@
+.top {
+    background-color: bisque;
+    width: 100%;
+    padding: 20px 0;
+}
+.content {
+    background-color: khaki;
+    width: 600px;
+    margin: 0 calc(50% - 300px);
+}
+@media (max-width: 1200px) {
+    .top {
+        width: 900px;
+        margin: 0 calc(50% - 450px);
+    }
+}
+@media (max-width: 900px) {
+    .top {
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+    }
+}
+@media (max-width: 700px) {
+    .top,
+    .content {
+        width: 400px;
+        margin: 0 calc(50% - 200px);
+    }
+}
+@media (max-width: 440px) {
+    .top,
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+}
