@@ -8,11 +8,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: khaki;
+    background-color: rgb(226, 226, 226);
     width: 600px;
     margin: 0 calc(50% - 300px);
     gap: 30px;
 }
+
 @media (max-width: 1200px) {
     .top {
         width: 900px;

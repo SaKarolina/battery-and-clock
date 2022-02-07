@@ -1,8 +1,21 @@
 .battery {
+    position: relative;
+    float: left;
     width: 120px;
     height: 60px;
     background-color: #ddd;
     border: 0.15em solid black
+}
+.end {
+    position: absolute;
+    float: right;
+    right: -10px;
+    top: 7.5px;
+    width: 10px;
+    height: 40px;
+    background-color: #ddd;
+    border: 0.15em solid black;
+    border-left: transparent;
 }
 .battery > .bar {
     background-color: transparent;
@@ -11,6 +24,37 @@
 }
 .battery .bar > .loading {
     background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+    animation-name: loading;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.battery2 {
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 60px;
+    background-color: #ddd;
+    border: 0.15em solid black
+}
+.battery2 > .bar {
+    background-color: transparent;
+    width: 80%;
+    height: 100%;
+}
+.battery2 .bar > .loading {
+    background: rgb(3, 187, 33);
+    background: linear-gradient(90deg, rgb(145, 255, 0) 0%, rgb(7, 230, 63) 58%, rgb(15, 180, 0) 100%);
     width: 100%;
     height: 100%;
     animation-name: loading;
