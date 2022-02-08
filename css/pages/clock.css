@@ -32,6 +32,71 @@
     border: 10px solid rgb(194, 152, 14);
     border-radius: 50%;
 }
+.clock-body::after{  
+    content: "";  
+    position: absolute;  
+    width: 13px;  
+    height: 13px;  
+    background: rgb(194, 152, 14); 
+    left: 50%;  
+    top: 50%;  
+    transform: translate(-50%,-50%);
+    border-radius: 50%;  
+} 
+.numb {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(114, 55, 0);
+}
+.numb12 {
+    top: 5px;
+    right: 110px;
+}
+.numb1 {
+    top: 15px;
+    right: 60px;
+}
+.numb2 {
+    top: 53px;
+    right: 22px;
+}
+.numb3 {
+    top: 108px;
+    right: 5px;
+}
+.numb4 {
+    bottom: 53px;
+    right: 22px;
+}
+.numb5 {
+    bottom: 15px;
+    right: 60px;
+}
+.numb6 {
+    bottom: 5px;
+    right: 110px;
+}
+.numb7 {
+    bottom: 15px;
+    left: 60px;
+}
+.numb8 {
+    bottom: 53px;
+    left: 22px;
+}
+.numb9 {
+    top: 108px;
+    left: 5px;
+}
+.numb10 {
+    top: 55px;
+    left: 18px;
+}
+.numb11 {
+    top: 17px;
+    left: 53px;
+}
 
 .hour-hand,
 .minute-hand,

@@ -7,10 +7,10 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    background-color: rgb(226, 226, 226);
 }
 
 body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 226, 226);
 }
