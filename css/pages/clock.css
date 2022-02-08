@@ -32,54 +32,20 @@
     border: 10px solid rgb(194, 152, 14);
     border-radius: 50%;
 }
+
 .arrows {
-    width: inherit;
-    height: inherit;
-    position: relative;
-    top: 0%;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
+
 }
 
+.hour-hand,
+.minute-hand,
 .second-hand {
     position: absolute;
-    width: 0.2em;
-    height: 5.7em;
-    top: 2em;
+    top: 50%;
     left: 50%;
-    background-color: rgb(201, 102, 10);
-}
-.numbers {
-    width: inherit;
-    height: inherit;
-    position: relative;
-    background-color: transparent;
-}
-.numbers div {
-    position: absolute;
-    font-size: 1.5em;
-    background-color: transparent;
-}
-.num12 {
-    top: 0.1em;
-    left: 46%;
-    transform: translateX(-50%);
-}
-.num3 {
-    right: 0.8em;
-    top: 40%;
-    transform: translateX(-50%);
-}
-.num6 {
-    bottom: 0.9em;
-    left: 47%;
-    transform: translateX(-50%);
-}
-.num9 {
-    left: 0.5em;
-    top: 40%;
-    transform: translateX(-50%);
+    height: 5px;
+    width: 40%;
+    background-color: rgb(29, 28, 28);
+    transform-origin: left;
+    transform: rotate(-90deg);
 }
