@@ -7,7 +7,7 @@
 
 _33 group homework_
 
-This project is for **educational** porpuses only.
+This project is for **educational** purposes only.
 
 Site published at: https://sakarolina.github.io/battery-and-clock/index.html
 
